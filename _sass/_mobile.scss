@@ -1,0 +1,46 @@
+// Theme toggle placement and small-screen tweaks
+
+.theme-toggle-wrap {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+
+  #light-toggle i {
+    padding: 0 !important;
+    font-size: 1.25rem;
+    line-height: 1;
+  }
+}
+
+// Below the navbar breakpoint: show the toggle next to the menu button
+@media (max-width: 575.98px) {
+  #navbar .container {
+    flex-wrap: wrap;
+  }
+  .theme-toggle-wrap {
+    order: 1;
+    margin-left: auto;
+  }
+  #navbar .navbar-toggler {
+    order: 2;
+    margin-left: 0.75rem !important;
+  }
+  #navbarNav {
+    order: 3;
+  }
+
+  // Keep the profile photo from filling the whole phone screen
+  .profile {
+    width: 60%;
+    margin: 0 auto 1rem auto !important;
+    float: none !important;
+  }
+
+  // Right-aligned dates wrap onto their own line instead of colliding with titles
+  .post span[style*="float:right"] {
+    float: none !important;
+    display: block;
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+  }
+}

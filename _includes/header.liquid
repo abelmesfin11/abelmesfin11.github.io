@@ -116,18 +116,18 @@
               </button>
             </li>
           {% endif %}
-          {% if site.enable_darkmode %}
-            <!-- Toogle theme mode -->
-            <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
-                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
-                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
-                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
-              </button>
-            </li>
-          {% endif %}
         </ul>
       </div>
+      {% if site.enable_darkmode %}
+        <!-- Theme toggle: kept outside the collapsible menu so it is always visible -->
+        <div class="theme-toggle-wrap">
+          <button id="light-toggle" title="Switch light / dark mode" aria-label="Switch light / dark mode">
+            <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+            <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+            <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+          </button>
+        </div>
+      {% endif %}
     </div>
   </nav>
   {% if site.enable_progressbar %}
