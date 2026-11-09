@@ -74,7 +74,6 @@ nav_order: 2
 <p><b>Front-End Developer</b>, Williams Students Online (WSO) <span style="float:right">Sep 2023 &ndash; present</span></p>
 <ul>
   <li>Built features and pages in React for a campus-wide student platform serving 2,000+ students.</li>
-  <li>Developed BookTrak, a textbook exchange tool that increased listings by 30% in its first two weeks.</li>
 </ul>
 
 <hr>
