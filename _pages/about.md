@@ -18,7 +18,7 @@ _styles: >
     }
 ---
 
-I'm a senior at <a href="https://www.williams.edu">Williams College</a> majoring in Computer Science and Mathematics (B.A. December 2026). I'm interested in what it takes for machine learning to hold up outside the lab: drawing trustworthy conclusions from imperfect data, and running reliably on imperfect infrastructure. My work so far spans **causal inference**, **statistics**, and **distributed learning**.
+I'm a senior at <a href="https://www.williams.edu">Williams College</a> majoring in Computer Science and Mathematics (B.A. December 2026). My research is in **causal inference** and **machine learning**, focusing on how to draw reliable conclusions from imperfect data and how to train models across distributed systems.
 
 <b>My research:</b>
 <ul>
